@@ -1,0 +1,126 @@
+/*font-family: 'Oswald', sans-serif;*/
+
+
+body{
+	background-color: rgb(232, 185, 97);
+}
+
+body header ul li a {
+	color: rgb(17, 59, 59);
+	font-family: 'Oswald', sans-serif;
+}
+
+h1
+{
+	font-family: 'Oswald', sans-serif;
+	color: rgb(38, 38, 84);
+}
+
+h2
+{
+	color: rgb(86, 16, 30);
+	font-family: 'Oswald', sans-serif;
+}
+p
+{
+	color: black;
+	font-family: 'Oswald', sans-serif;
+}
+header h1 {
+	color: rgb(42, 133, 9);
+	font-family:'Oswald', sans-serif;
+	}
+
+	body section
+	{
+		font-family: 'Oswald', sans-serif;
+	}
+
+/*Flexbox*/
+
+header
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header main img
+{
+	width: 250px;
+	height: 150px;
+	display: flex;
+	flex-direction: row;
+    justify-content: flex-start;
+}
+ul
+{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+li
+{
+	border: 2px black solid;
+}
+li
+{
+	padding: 10px 12px;
+}
+header div ul
+{
+display: flex;
+justify-content: end;
+align-items: baseline;
+}
+
+body main 
+{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+flex-direction: row;
+align-content: center;
+gap: 30px;
+}
+
+main .containeruno
+{
+display: flex;
+flex-direction: row;
+width: 152px;
+height: 35px;
+}
+
+.containerdos
+{
+	margin-top: 50px ;
+}
+
+body div
+
+{
+	margin-top: 50px ;
+}
+
+body div
+{
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 20px;
+}
+
+footer div
+{
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr 2fr;
+	grid-auto-rows: 0.1fr 0.2fr 0.2fr 0.1fr;
+	grid-template-areas: 
+	"nav pie pie";
+
+}
+
